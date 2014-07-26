@@ -1,6 +1,6 @@
 # qlBitRate
 
-__qlBitRate__ is a QuickLook plugin that will display the bit rate (in kbps) of an MP3 file in the title bar of the QuickLook window.  This plugin has been tested to work in at least OS X 10.7 (Lion) and 10.8 (Mountain Lion).
+__qlBitRate__ is a QuickLook plugin that will display the bit rate (in kbps) and filename of an MP3 file in the title bar of the QuickLook window.  This plugin has been tested to work in at least OS X 10.7 (Lion), 10.8 (Mountain Lion), and 10.9 (Mavericks).
 
 
 ![qlBitRate Screenshot](https://raw.github.com/jordansaints/qlBitRate/master/demo.png "qlBitRate in action!")

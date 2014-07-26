@@ -59,7 +59,7 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
 
     // Build output to display
     CFStringRef keys[1] = {kQLPreviewPropertyDisplayNameKey};
-    CFStringRef values[1] = {CFStringCreateWithFormat(kCFAllocatorDefault, NULL, CFSTR("%i Kbps - %@"), bitRate, filename)};
+    CFStringRef values[1] = {CFStringCreateWithFormat(kCFAllocatorDefault, NULL, CFSTR("%i kbps - %@"), bitRate, filename)};
     CFDictionaryRef properties = CFDictionaryCreate(kCFAllocatorDefault, (const void**)keys, (const void**)values, 1, &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
     QLPreviewRequestSetURLRepresentation(preview, url, contentTypeUTI, properties);
     
